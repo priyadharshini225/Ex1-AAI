@@ -7,6 +7,7 @@
 
 ## Aim :
     To create a bayesian Network for the given dataset in Python
+    
 ## Algorithm:
 
 Step 1:Import necessary libraries: pandas, networkx, matplotlib.pyplot, Bbn, Edge, EdgeType, BbnNode, Variable, EvidenceBuilder, InferenceController<br/>
@@ -107,18 +108,14 @@ print(probs(df, child='RainTomorrow', parent1='Humidity3pmCat', parent2='WindGus
 
 ## Output:
 #### Variable bands:
-![363492179-6182ef77-1ac1-420a-abe7-b65c0a66df52](https://github.com/user-attachments/assets/2a4f5053-015a-4215-a108-304cba167a59)
+![Screenshot 2025-04-16 015322](https://github.com/user-attachments/assets/9cb29d9c-2bfd-4f9a-bb26-f35bb7b462e4)
 
-![363492179-6182ef77-1ac1-420a-abe7-b65c0a66df52](https://github.com/user-attachments/assets/dc5e1a15-15ff-4f37-9abd-853611df673b)
+![Screenshot 2025-04-16 015333](https://github.com/user-attachments/assets/042fa3ca-26d4-40dd-aa64-319f9fe6ac1e)
 
-![363492179-6182ef77-1ac1-420a-abe7-b65c0a66df52](https://github.com/user-attachments/assets/cbb44580-ab85-4ed6-abb2-7d77bc2c675d)
-
-![363492192-c9882288-32b6-4e1e-a6d5-b667c3a403b6](https://github.com/user-attachments/assets/417a3bb9-282c-4594-8f17-28c99bac9178)
-
-![363492192-c9882288-32b6-4e1e-a6d5-b667c3a403b6](https://github.com/user-attachments/assets/6cfd0ce4-cec7-42e0-a1b3-53e59c1c72ba)
+![Screenshot 2025-04-16 015609](https://github.com/user-attachments/assets/3dff6c1f-ffdd-4e07-882a-5bf7e2b913fa)
 
 #### Graph:
-![363492202-91d35ed4-efa4-4af6-95ee-dfc3b9f6f992](https://github.com/user-attachments/assets/1567d133-d23e-4b8b-8853-f0c5b61f5921)
+![Screenshot 2025-04-16 015646](https://github.com/user-attachments/assets/233c2c3a-b6e0-4ac1-8a5e-a401910bbfd9)
 
 ## Result:
    Thus a Bayesian Network is generated using Python
