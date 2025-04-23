@@ -27,6 +27,8 @@ Step 14:Update margins and display the graph using matplotlib.pyplot<br/>
 
 ## Program:
 ```py
+pip install pybbn
+
 import networkx as nx
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -108,14 +110,11 @@ print(probs(df, child='RainTomorrow', parent1='Humidity3pmCat', parent2='WindGus
 
 ## Output:
 #### Variable bands:
-![Screenshot 2025-04-16 015322](https://github.com/user-attachments/assets/9cb29d9c-2bfd-4f9a-bb26-f35bb7b462e4)
-
-![Screenshot 2025-04-16 015333](https://github.com/user-attachments/assets/042fa3ca-26d4-40dd-aa64-319f9fe6ac1e)
-
-![Screenshot 2025-04-16 015609](https://github.com/user-attachments/assets/3dff6c1f-ffdd-4e07-882a-5bf7e2b913fa)
+![Screenshot 2025-04-22 231234](https://github.com/user-attachments/assets/d459dd75-1910-4c55-861a-9020b29a171c)
+![Screenshot 2025-04-22 231245](https://github.com/user-attachments/assets/29dfbe08-2e47-4dcb-a9ee-e768f8d5fbc1)
 
 #### Graph:
-![Screenshot 2025-04-16 015646](https://github.com/user-attachments/assets/233c2c3a-b6e0-4ac1-8a5e-a401910bbfd9)
+![Screenshot 2025-04-22 231252](https://github.com/user-attachments/assets/df9c5967-606f-4994-968d-f3d93713a78e)
 
 ## Result:
    Thus a Bayesian Network is generated using Python
